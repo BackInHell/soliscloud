@@ -1,0 +1,10 @@
+{
+  "domain": "soliscloud",
+  "name": "SolisCloud Integration",
+  "version": "0.1.0",
+  "documentation": "https://github.com/DEIN-GITHUB-USERNAME/soliscloud-ha",
+  "dependencies": [],
+  "codeowners": ["@DEIN-GITHUB-USERNAME"],
+  "requirements": ["requests"],
+  "iot_class": "cloud_polling"
+}
