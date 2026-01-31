@@ -51,10 +51,12 @@ class SolisSensor(CoordinatorEntity, SensorEntity):
 
     @property
     def native_value(self):
-        record = (
+        records = (
             self.coordinator.data
             .get("data", {})
             .get("page", {})
-            .get("records", [])[0]
+            .get("records", [])
         )
-        return record.get(self._key)
+        if not records:
+            return None
+        return records[0].get(self._key)

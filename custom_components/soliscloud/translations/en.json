@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SolisCloud API Credentials",
+        "data": {
+          "api_id": "API ID",
+          "api_secret": "API Secret"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to SolisCloud API",
+      "invalid_auth": "Invalid credentials"
+    },
+    "abort": {
+      "already_configured": "Already configured"
+    }
+  }
+}

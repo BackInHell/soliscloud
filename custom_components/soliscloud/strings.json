@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SolisCloud API Zugangsdaten",
+        "data": {
+          "api_id": "API ID",
+          "api_secret": "API Secret"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zur SolisCloud API fehlgeschlagen",
+      "invalid_auth": "Ungültige Zugangsdaten"
+    },
+    "abort": {
+      "already_configured": "Bereits konfiguriert"
+    }
+  }
+}
